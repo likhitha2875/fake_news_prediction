@@ -18,24 +18,3 @@ The system predicts whether a news article is real or fake with high accuracy, m
  ✅ Clean pipeline structure for easy understanding and extension
  ✅ Preprocessing using NLTK for noise reduction
  ✅ Scalable for real-time detection pipelines
-
-🗂️ Dataset
-Uses train.csv containing:
-
-id: Article ID
-
-title: Article title
-
-author: Article author
-
-text: Full/partial article text
-
-label: 0 (Real) or 1 (Fake)
-
-⚙️ Dependencies
-Run in Google Colab with:
-
-bash
-Copy
-Edit
-pip install nltk scikit-learn pandas
